@@ -1,11 +1,11 @@
- function makeADGTag(adid , divid){
+function makeADGTag(adid , divid){
     var adg = document.getElementById(divid);
     var script = document.createElement('script');
     script.type = 'text/javascript';
 
     // async=trueにすることによって非同期に対応されます
     script.src ='https://i.socdm.com/sdk/js/adg-script-loader.js?id=' + adid + '&adType=SP&displayid=0&targetID=adg_' + divid + '&async=true';
-
+    
     if(adg != null){
         adg.appendChild(script);
     }

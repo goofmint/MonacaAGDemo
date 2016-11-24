@@ -1,23 +1,16 @@
 {
     "plugins": [
-        "mobi.monaca.plugins.Monaca@3.0.0"
+        "mobi.monaca.plugins.Monaca"
     ],
     "framework_version": "3.5",
     "xcode_version": "7",
     "cordova_version": "6.2",
-    "plugin_settings": {
-        "cordova-plugin-crosswalk-webview": {
-            "variables": [
-                "XWALK_VERSION=18.48.477.13"
-            ]
-        }
-    },
+    "plugin_settings": [],
     "external_plugins": [
         "cordova-plugin-whitelist@1.2.2",
         "cordova-plugin-splashscreen@3.2.2",
-        "cordova-plugin-inappbrowser@1.4.0",
         "cordova-custom-config@2.0.3",
-        "cordova-sqlite-storage"
+        "cordova-plugin-inappbrowser@1.4.0"
     ],
     "title-ja": "",
     "title-en": "",
@@ -25,5 +18,5 @@
     "description-en": "",
     "category": "User Template",
     "platform": [],
-    "name": "generated-1477354647-580d6bb4fd17342217b83b5a"
+    "name": "generated-1479960407-583664a5fd17346f184c3ccd"
 }
